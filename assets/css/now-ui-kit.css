@@ -1651,9 +1651,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary.btn-simple:hover,
 .btn-primary.btn-simple:focus,
 .btn-primary.btn-simple:active {
-    background-color: #07a3b41c;
-    color: #5207b4;
-    border-color: #5207b4;
+    background-color: #5207b4;
+    color: #fff;
     box-shadow: none;
 }
 
@@ -3522,7 +3521,7 @@ body {
     margin-right: 5px;
     background-color: transparent;
     border: 1px solid transparent;
-    border-radius: 30px;
+    border-radius: 20px;
     font-size: 14px;
     padding: 11px 23px;
     line-height: 1.5;
@@ -3533,8 +3532,8 @@ body {
 }
 
 .nav-tabs>.nav-item>.nav-link.active {
-    border: 1px solid #888;
-    border-radius: 30px;
+    border-top: 2.5px solid #5207b4;
+    border-radius: 0px;
 }
 
 .nav-tabs>.nav-item>.nav-link i.now-ui-icons {
